@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/try_0011/try_0011",
+    "pages/try_0009/try_0009",
+    "pages/try_0008/try_0008",
+    "pages/try_0007/try_0007",
+    "pages/try_0006/try_0006",
+    "pages/try_0005/try_0005",
+    "pages/try_0004/try_0004",
+    "pages/try_0003/try_0003",
+    "pages/try_0002/try_0002",
+    "pages/try_0001/try_0001",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+ "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序演示",
+    "navigationBarBackgroundColor": "#fbf9fe",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "page/component/index",
+      "iconPath": "image/wechat.png",
+      "selectedIconPath": "image/wechatHL.png",
+      "text": "组件"
+    }, {
+      "pagePath": "page/API/index/index",
+      "iconPath": "image/wechat.png",
+      "selectedIconPath": "image/wechatHL.png",
+      "text": "接口"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
