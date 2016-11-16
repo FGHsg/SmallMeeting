@@ -1,7 +1,7 @@
-<block wx:if="{{showLoading}}">
-  <view class="page-loading">
-    <text class="weui-loading"/><text class="loading-text">玩命加载中</text>
-  </view>
+
+<block>
+  <button class="button" bindtap="DirectToJoin"> 参加会议 </button>
 </block>
-
-
+<block>
+  <button class="button" bindtap="DirectToJoin"> 准备会议 </button>
+</block>

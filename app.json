@@ -1,32 +1,38 @@
 {
   "pages":[
     "pages/Start/MainPage/MainPage",
-    "pages/MyMeeting/last/last"
+    "pages/MyMeeting/Last/Last",
+    "pages/Setting/index/index"
   ],
  "window": {
     "backgroundTextStyle":"light",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "乐会",
     "navigationBarBackgroundColor": "#fbf9fe",
-    "backgroundColor": "#fbf9fe"
+    "backgroundColor": "#fbf9fe",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#dddddd",
-    "selectedColor": "#3cc51f",
-    "borderStyle": "black",
+    "selectedColor": "#2d8bfd",
+    "borderStyle": "white",
     "backgroundColor": "#ffffff",
     "list": [{
-      "pagePath": "page/Start/main/main",
+      "pagePath":"pages/Start/MainPage/MainPage",
       "iconPath": "image/start.png",
       "selectedIconPath": "image/start_active.png",
       "text": "开始"
     }, {
-      "pagePath": "page/MyMeeting/last/last",
+      "pagePath": "pages/MyMeeting/Last/Last",
       "iconPath": "image/mymeeting.png",
       "selectedIconPath": "image/mymeeting_active.png",
       "text": "我的会议"
-    }
-    ]
+    }, {
+      "pagePath": "pages/Setting/index/index",
+      "iconPath": "image/setting.png",
+      "selectedIconPath": "image/setting_active.png",
+      "text": "设置"
+    }]
   },
   "networkTimeout": {
     "request": 10000,
