@@ -1,7 +1,11 @@
-
-<block>
-  <button class="button" bindtap="DirectToJoin"> 参加会议 </button>
-</block>
-<block>
-  <button class="button" bindtap="DirectToJoin"> 准备会议 </button>
-</block>
+<view>
+  <navigator url="navigate?title=Join" hover-class="navigator-hover">
+    <button class="button" bindtap="DirectToJoin"> 参加会议 </button>
+  </navigator>
+   <navigator url="navigate?title=Prepare" hover-class="navigator-hover">
+    <button class="button" bindtap="DirectToJoin"> 准备会议 </button>
+  </navigator>
+   <navigator url="navigate?title=Host" hover-class="navigator-hover">
+    <button class="button" bindtap="DirectToJoin"> 主持会议 </button>
+  </navigator>
+</view>

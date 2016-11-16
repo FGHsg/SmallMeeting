@@ -1,6 +1,5 @@
 .button {
   width: 35%;
   height: 80px;
-  vertical-align: top;
-  align-items: left;
+  color: "#807776";
 }
