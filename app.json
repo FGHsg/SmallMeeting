@@ -1,21 +1,13 @@
 {
   "pages":[
-    "pages/try_0011/try_0011",
-    "pages/try_0009/try_0009",
-    "pages/try_0008/try_0008",
-    "pages/try_0007/try_0007",
-    "pages/try_0006/try_0006",
-    "pages/try_0005/try_0005",
-    "pages/try_0004/try_0004",
-    "pages/try_0003/try_0003",
-    "pages/try_0002/try_0002",
-    "pages/try_0001/try_0001",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/Start/MainPage/MainPage",
+    "pages/MyMeeting/last/last",
+    "pages/Setting/index/index"
   ],
  "window": {
+    "backgroundTextStyle":"light",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "小程序演示",
+    "navigationBarTitleText": "乐会",
     "navigationBarBackgroundColor": "#fbf9fe",
     "backgroundColor": "#fbf9fe"
   },
@@ -25,15 +17,20 @@
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [{
-      "pagePath": "page/component/index",
-      "iconPath": "image/wechat.png",
-      "selectedIconPath": "image/wechatHL.png",
-      "text": "组件"
+      "pagePath": "page/Start/main/main",
+      "iconPath": "image/start.png",
+      "selectedIconPath": "image/start_active.png",
+      "text": "开始"
     }, {
-      "pagePath": "page/API/index/index",
-      "iconPath": "image/wechat.png",
-      "selectedIconPath": "image/wechatHL.png",
-      "text": "接口"
+      "pagePath": "page/MyMeeting/last/last",
+      "iconPath": "image/mymeeting.png",
+      "selectedIconPath": "image/mymeeting_active.png",
+      "text": "我的会议"
+    }, {
+      "pagePath": "page/Setting/index/index",
+      "iconPath": "image/setting.png",
+      "selectedIconPath": "image/setting_active.png",
+      "text": "设置"
     }]
   },
   "networkTimeout": {
