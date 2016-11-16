@@ -1,8 +1,7 @@
 {
   "pages":[
     "pages/Start/MainPage/MainPage",
-    "pages/MyMeeting/last/last",
-    "pages/Setting/index/index"
+    "pages/MyMeeting/last/last"
   ],
  "window": {
     "backgroundTextStyle":"light",
@@ -26,12 +25,8 @@
       "iconPath": "image/mymeeting.png",
       "selectedIconPath": "image/mymeeting_active.png",
       "text": "我的会议"
-    }, {
-      "pagePath": "page/Setting/index/index",
-      "iconPath": "image/setting.png",
-      "selectedIconPath": "image/setting_active.png",
-      "text": "设置"
-    }]
+    }
+    ]
   },
   "networkTimeout": {
     "request": 10000,
