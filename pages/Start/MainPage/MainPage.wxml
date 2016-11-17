@@ -1,11 +1,22 @@
-<view>
-  <navigator url="navigate?title=Join" hover-class="navigator-hover">
-    <button class="button" bindtap="DirectToJoin"> 参加会议 </button>
-  </navigator>
-   <navigator url="navigate?title=Prepare" hover-class="navigator-hover">
-    <button class="button" bindtap="DirectToJoin"> 准备会议 </button>
-  </navigator>
-   <navigator url="navigate?title=Host" hover-class="navigator-hover">
-    <button class="button" bindtap="DirectToJoin"> 主持会议 </button>
-  </navigator>
-</view>
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <navigator url="pages/MeetingRoom/Showing/Showing" hover-class="navigator-hover">
+      <view class="flex-item bc_gray">
+        <view class="text">参加会议</view>
+      </view>
+    </navigator>
+    <navigator url="pages/MeetingRoom/Prepare/Prepare" hover-class="navigator-hover">
+      <view class="flex-item bc_mgray">
+        <view class="text">准备会议</view>
+      </view>
+    </navigator>
+  </view>
+  <view class="section">
+    <view class="flex-wrp" style="flex-direction:column;">
+      <navigator url="pages/MeetingRoom/Host/Host" hover-class="navigator-hover">
+        <view class="flex-item1 bc_brown">
+          <view class="text">主持会议</view>
+        </view>
+      </navigator>
+    </view>
+  </view> 

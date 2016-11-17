@@ -3,3 +3,35 @@
   height: 80px;
   color: "#807776";
 }
+.bc_gray{
+    background-color: #c2bdbd;
+}
+.flex-wrp{
+    align-content: center;
+    height: 100px;
+    display:flex;
+    background-color: #FFFFFF;
+}
+.flex-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+.flex-item1{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height: 100px;
+}
+.text{
+  color: white;
+  text-align: center;
+  font-family: "Helvetica Neue",Arial,"PingFang SC",
+  "Microsoft YaHei",sans-serif;
+}
+.section{
+    align-content: center;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}

@@ -1,4 +1,24 @@
 /**app.wxss**/
+
+.bc_green{
+    background-color: #09BB07;
+}
+.bc_mgray{
+    background-color: #807776;
+}
+.bc_brown{
+    background-color: #ac9382;
+}
+.bc_yellow{
+    background-color: #FFBE00;
+}
+.bc_gray{
+    background-color: #C9C9C9;
+}
+
+
+
+
 .clearfix{
   zoom: 1;
 }
@@ -95,3 +115,7 @@
   color: #666;
   text-align: center;
 }
+
+
+
+
