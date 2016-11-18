@@ -6,9 +6,9 @@
   ],
  "window": {
     "backgroundTextStyle":"light",
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "white",
     "navigationBarTitleText": "乐会",
-    "navigationBarBackgroundColor": "#fbf9fe",
+    "navigationBarBackgroundColor": "#38394b",
     "backgroundColor": "#fbf9fe",
     "enablePullDownRefresh": true
   },

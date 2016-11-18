@@ -1,5 +1,12 @@
+ <view class="widgets__item">
+  <view id="view" class="widgets__info">
+    <view class="title">开始</view>
+    <image class="widgets__info-img {{viewShow ? 'widgets__info_show' : ''}}" bindtap="widgetsToggle" src="resources/find.png" background-size="cover" />
+    <image class="widgets__info-img {{viewShow ? 'widgets__info_show' : ''}}" bindtap="widgetsToggle" src="resources/search.png" background-size="cover" />
+  </view>
+</view>
 <view class="section">
-  <view class="flex-wrp" style="flex-direction:row;">
+  <view class="flex-wrp" style="flex-direction:row;justify-content:center">
     <navigator url="pages/MeetingRoom/Showing/Showing" hover-class="navigator-hover">
       <view class="flex-item bc_gray">
         <view class="text">参加会议</view>
@@ -12,7 +19,7 @@
     </navigator>
   </view>
   <view class="section">
-    <view class="flex-wrp" style="flex-direction:column;">
+    <view class="flex-wrp" style="flex-direction:row;justify-content:center">
       <navigator url="pages/MeetingRoom/Host/Host" hover-class="navigator-hover">
         <view class="flex-item1 bc_brown">
           <view class="text">主持会议</view>
