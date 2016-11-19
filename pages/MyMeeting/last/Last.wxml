@@ -1,10 +1,44 @@
-<view class="container">
-  <view class="textContainer">
-    <text class="textStyle">{{text}}</text>
+ <view class="widgets__item">
+  <view id="view" class="widgets__info">
+    <view class="title {{lastShow ? '' : ''}}" style="text-align:right">我的最近</view>
+    <view class="title {{meetingShow ? '' : ''}}" style="text-align:left">会议记录</view>
+    <image class="widgets__info-img {{img1wShow ? '' : ''}}" bindtap="widgetsToggle" src="resources/search.png"
+           background-size="cover" />
+    <image class="widgets__info-img {{img2Show ? '' : ''}}" bindtap="widgetsToggle" src="resources/adding.png"
+           background-size="cover" />
   </view>
 </view>
-<block wx:if="{{showLoading}}">
-  <view class="page-loading">
-    <text class="weui-loading"/><text class="loading-text">玩命加载中</text>
-  </view>
-</block>
+
+<scroll-view style="height: 100%;" scroll-y="true" class="container film-list">
+  <block>
+    <view class="film-item">
+      <view class="film-image">
+        <image src="resources/huihai.png"></image>
+      </view>
+      <view class="film-info">
+        <view>
+          <text class="film-title">会嗨</text>
+          <text class="film-year">2016</text>
+        </view>
+        <view class="film-rating">
+          <block >
+            <text class="label">会议评分</text>
+            <text class="rating">9.8</text>
+          </block>
+        </view>
+        <view class="directors">
+          <text class="label">主持人</text>
+          <block>
+            <text class="person">小刚</text>
+          </block>
+        </view>
+        <view class="casts">
+          <text class="label">参会者</text>
+          <block>
+            <text class="person">小红, 小鑫, 小雅, 小伟, 小超, 小样</text>
+          </block>
+        </view>
+      </view>
+    </view>
+  </block>
+</scroll-view>
