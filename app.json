@@ -2,12 +2,16 @@
   "pages":[
     "pages/Start/MainPage/MainPage",
     "pages/MyMeeting/Last/Last",
-    "pages/Setting/index/index"
+    "pages/Setting/index/index",
+    "pages/Start/MainPage/MeetingRoom/Host/Host",
+    "pages/Start/MainPage/MeetingRoom/Prepare/Prepare",
+    "pages/Start/MainPage/MeetingRoom/Showing/Showing",
+    "pages/Start/MainPage/MeetingRoom/Video/Video"
   ],
  "window": {
     "backgroundTextStyle":"light",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "乐会",
+    "navigationBarTitleText": "会嗨",
     "navigationBarBackgroundColor": "#38394b",
     "backgroundColor": "#fbf9fe",
     "enablePullDownRefresh": true

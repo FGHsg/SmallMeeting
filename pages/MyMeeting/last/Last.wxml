@@ -8,7 +8,6 @@
            background-size="cover" />
   </view>
 </view>
-
 <scroll-view style="height: 100%;" scroll-y="true" class="container film-list">
   <block>
     <view class="film-item">
@@ -21,7 +20,7 @@
           <text class="film-year">2016</text>
         </view>
         <view class="film-rating">
-          <block >
+          <block>
             <text class="label">会议评分</text>
             <text class="rating">9.8</text>
           </block>

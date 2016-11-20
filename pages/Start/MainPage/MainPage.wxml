@@ -1,28 +1,33 @@
  <view class="widgets__item">
   <view id="view" class="widgets__info">
     <view class="title">开始</view>
-    <image class="widgets__info-img {{viewShow ? 'widgets__info_show' : ''}}" bindtap="widgetsToggle" src="resources/find.png" background-size="cover" />
-    <image class="widgets__info-img {{viewShow ? 'widgets__info_show' : ''}}" bindtap="widgetsToggle" src="resources/search.png" background-size="cover" />
+    <image class="widgets__info-img {{viewShow ? 'widgets__info_show' : ''}}" bindtap="widgetsToggle"
+           src="resources/find.png" background-size="cover" />
+    <image class="widgets__info-img {{viewShow ? 'widgets__info_show' : ''}}" bindtap="widgetsToggle"
+           src="resources/search.png" background-size="cover" />
   </view>
 </view>
 <view class="section">
   <view class="flex-wrp" style="flex-direction:row;justify-content:center">
-    <navigator url="pages/MeetingRoom/Showing/Showing" hover-class="navigator-hover">
+    <navigator url="MeetingRoom/Showing/Showing" hover-class="navigator-hover">
       <view class="flex-item bc_gray">
         <view class="text">参加会议</view>
+        <image class="flex-image" src="resources/attend.png"></image>
       </view>
     </navigator>
-    <navigator url="pages/MeetingRoom/Prepare/Prepare" hover-class="navigator-hover">
+    <navigator url="MeetingRoom/Prepare/Prepare" hover-class="navigator-hover">
       <view class="flex-item bc_mgray">
         <view class="text">准备会议</view>
+        <image class="flex-image" src="resources/prepare.png"></image>
       </view>
     </navigator>
   </view>
   <view class="section">
     <view class="flex-wrp" style="flex-direction:row;justify-content:center">
-      <navigator url="pages/MeetingRoom/Host/Host" hover-class="navigator-hover">
+      <navigator url="MeetingRoom/Host/Host" hover-class="navigator-hover">
         <view class="flex-item1 bc_brown">
           <view class="text">主持会议</view>
+          <image class="flex-image" style="margin-left:60px" src="resources/host.png"></image>
         </view>
       </navigator>
     </view>
