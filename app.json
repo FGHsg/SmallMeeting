@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/Start/MainPage/MainPage",
     "pages/MyMeeting/Last/Last",
     "pages/Setting/index/index",
@@ -8,8 +8,8 @@
     "pages/Start/MainPage/MeetingRoom/Showing/Showing",
     "pages/Start/MainPage/MeetingRoom/Video/Video"
   ],
- "window": {
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "会嗨",
     "navigationBarBackgroundColor": "#38394b",
@@ -21,22 +21,26 @@
     "selectedColor": "#2d8bfd",
     "borderStyle": "white",
     "backgroundColor": "#ffffff",
-    "list": [{
-      "pagePath":"pages/Start/MainPage/MainPage",
-      "iconPath": "image/start.png",
-      "selectedIconPath": "image/start_active.png",
-      "text": "开始"
-    }, {
-      "pagePath": "pages/MyMeeting/Last/Last",
-      "iconPath": "image/mymeeting.png",
-      "selectedIconPath": "image/mymeeting_active.png",
-      "text": "我的会议"
-    }, {
-      "pagePath": "pages/Setting/index/index",
-      "iconPath": "image/setting.png",
-      "selectedIconPath": "image/setting_active.png",
-      "text": "设置"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/Start/MainPage/MainPage",
+        "iconPath": "image/start.png",
+        "selectedIconPath": "image/start_active.png",
+        "text": "开始"
+      },
+      {
+        "pagePath": "pages/MyMeeting/Last/Last",
+        "iconPath": "image/mymeeting.png",
+        "selectedIconPath": "image/mymeeting_active.png",
+        "text": "我的会议"
+      },
+      {
+        "pagePath": "pages/Setting/index/index",
+        "iconPath": "image/setting.png",
+        "selectedIconPath": "image/setting_active.png",
+        "text": "设置"
+      }
+    ]
   },
   "networkTimeout": {
     "request": 10000,
