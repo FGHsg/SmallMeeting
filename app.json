@@ -13,7 +13,7 @@
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "会嗨",
     "navigationBarBackgroundColor": "#38394b",
-    "backgroundColor": "#fbf9fe",
+    "backgroundColor": "#000000",
     "enablePullDownRefresh": true
   },
   "tabBar": {

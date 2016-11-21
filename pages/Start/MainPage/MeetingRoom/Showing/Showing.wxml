@@ -1,5 +1,24 @@
-<view class="container">
-  <view class="textContainer">
-    <text class="textStyle">{{text}}</text>
+ <view>
+  <text class="textStyle">结束</text>
+</view>
+<view class="weui-tabbar">
+  <view class="weui-tabbar__item weui-bar__item_on">
+    <navigator url="../MeetingRoom/Showing/Showing">
+      <image src="resources/show_active.png" class="weui-tabbar__icon"></image>
+      <text class="weui-tabbar__label">演示</text>
+    </navigator>
+  </view>
+  <view class="weui-tabbar__item weui-bar__item_on">
+    <navigator url="MeetingRoom/Showing/Showing">
+      <image src="resources/participator.png" class="weui-tabbar__icon" style="margin-left:5px"></image>
+      <text class="weui-tabbar__label">参与者</text>
+    </navigator>
+  </view>
+  <view class="weui-tabbar__item weui-bar__item_on">
+    <navigator url="MeetingRoom/Showing/Showing">
+      <image src="resources/more.png" class="weui-tabbar__icon" style="margin-right:4px"></image>
+      <text class="weui-tabbar__label">更多</text>
+    </navigator>
   </view>
 </view>
+
