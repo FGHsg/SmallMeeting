@@ -4,7 +4,7 @@
 <view class="weui-tabbar">
   <view class="weui-tabbar__item weui-bar__item_on" bindtap="navigateToShow">
     <view>
-      <image src="resources/show_active.png" class="weui-tabbar__icon"></image>
+      <image src="resources/show.png" class="weui-tabbar__icon"></image>
       <text class="weui-tabbar__label">演示</text>
     </view>
   </view>
@@ -16,7 +16,7 @@
   </view>
   <view class="weui-tabbar__item weui-bar__item_on" bindtap="navigateToMore">
     <view>
-      <image src="resources/more.png" class="weui-tabbar__icon" style="margin-right:4px"></image>
+      <image src="resources/more_active.png" class="weui-tabbar__icon" style="margin-right:4px"></image>
       <text class="weui-tabbar__label">更多</text>
     </view>
   </view>
