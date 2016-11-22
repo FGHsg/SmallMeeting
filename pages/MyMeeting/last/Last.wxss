@@ -24,9 +24,6 @@
   font-family: "Helvetica Neue",Arial,"PingFang SC",
   "Microsoft YaHei",sans-serif;
 }
-.text{
-
-}
 .widgets__info-img{
     margin-left:3px;
     margin-right:3px; 

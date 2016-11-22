@@ -6,14 +6,17 @@
     "pages/Start/MainPage/MeetingRoom/Host/Host",
     "pages/Start/MainPage/MeetingRoom/Prepare/Prepare",
     "pages/Start/MainPage/MeetingRoom/Showing/Showing",
-    "pages/Start/MainPage/MeetingRoom/Video/Video"
+    "pages/Start/MainPage/MeetingRoom/Video/Video",
+
+    "pages/Start/MainPage/MeetingRoom/Participator/Participator",
+    "pages/Start/MainPage/MeetingRoom/More/More"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "会嗨",
     "navigationBarBackgroundColor": "#38394b",
-    "backgroundColor": "#fbf9fe",
+    "backgroundColor": "#000000",
     "enablePullDownRefresh": true
   },
   "tabBar": {

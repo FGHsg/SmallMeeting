@@ -4,13 +4,13 @@
 <view class="weui-tabbar">
   <view class="weui-tabbar__item weui-bar__item_on" bindtap="navigateToShow">
     <view>
-      <image src="resources/show_active.png" class="weui-tabbar__icon"></image>
+      <image src="resources/show.png" class="weui-tabbar__icon"></image>
       <text class="weui-tabbar__label">演示</text>
     </view>
   </view>
   <view class="weui-tabbar__item weui-bar__item_on" bindtap="navigateToParticipator">
     <view>
-      <image src="resources/participator.png" class="weui-tabbar__icon" style="margin-left:5px"></image>
+      <image src="resources/participator_active.png" class="weui-tabbar__icon" style="margin-left:5px"></image>
       <text class="weui-tabbar__label">参与者</text>
     </view>
   </view>
